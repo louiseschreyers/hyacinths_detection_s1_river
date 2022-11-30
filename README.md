@@ -1,4 +1,4 @@
-### hyacinths_detection_s1_river
+# Hyacinth detection tool using Sentinel-1 SAR satellite imagery #
 ## Purpose
 
 Run a simple detection tool to estimate water hyacinth coverage using Sentinel-1 SAR satellite imagery. 
