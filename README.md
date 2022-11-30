@@ -9,4 +9,8 @@ The detection tool uses the Google Earth Engine API and Sentinel-1 SAR satellite
  
 ## How to use the Javascript code
 
-The JavaScript code corresponds to the file ''. Duplicate the JavaScript code in the Google Earth Engine editor. A Google Earth Engine account is required, as well as uploading the shapefiles of interest. Twelve shapefiles are provided into the resources folder, corresponding to twelve sectors of interest over the Saigon river, Vietnam. These could be replaced by other geometries/shapefiles of interest. 
+The JavaScript code corresponds to the file 'gee_code'. Duplicate the JavaScript code in the Google Earth Engine editor. A Google Earth Engine account is required, as well as uploading the shapefiles of interest. Twelve shapefiles are provided into the resources folder, corresponding to twelve sectors of interest over the Saigon river, Vietnam. These could be replaced by other geometries/shapefiles of interest. 
+
+It is also required to go to the gee_s1_ard public repo (https://github.com/adugnag/gee_s1_ard) and copy the contents of s1_ard.js to your own repository. This is necessary to process the Sentinel-1 SAR imagery collection. 
+
+Mullissa A., Vollrath A., Braun, C., Slagter B., Balling J., Gou Y., Gorelick N.,  Reiche J. (2021). Sentinel-1 SAR Backscatter Analysis Ready Data Preparation in Google Earth Engine. Remote Sensing, 13(10), 1954; https://doi.org/10.3390/rs13101954 
